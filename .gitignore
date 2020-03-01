@@ -1,0 +1,14 @@
+.idea/
+build/
+
+# Prevent leaking of private certs.
+ca-cert/*.pem
+ca-cert/*.csr
+ca-cert/*.key
+sa-cert/*.pem
+sa-cert/*.csr
+sa-cert/*.key
+certs/*.pem
+certs/*.csr
+certs/*.key
+certs/*.srl
